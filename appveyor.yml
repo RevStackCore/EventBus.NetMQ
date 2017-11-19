@@ -8,7 +8,7 @@ build:
     parallel: true
     publish_nuget: true
     verbosity: minimal
-    project: EventBus.NetMQ.sln
+    project: RevStackCore.EventBus.NetMQ.sln
 
 before_build:
   - dotnet restore
