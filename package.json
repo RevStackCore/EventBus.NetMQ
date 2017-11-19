@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.EventBus.NetMQ",
+  "version": "1.0.1",
+  "description": "RevStackCore .net core Event Bus abstractions.",
+  "main": "RevStackCore.EventBus.NetMQ.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/EventBus.NetMQ.git"
+  },
+  "author": "David Sheets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevStackCore/EventBus.NetMQ/issues"
+  },
+  "homepage": "https://github.com/RevStackCore/EventBus.NetMQ"
+}

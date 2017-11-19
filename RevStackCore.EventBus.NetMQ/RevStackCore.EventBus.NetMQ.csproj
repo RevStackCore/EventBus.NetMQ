@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>David Sheets</Authors>
+    <Company>MIS</Company>
+    <Description>RevStackCore Event Bus NetMQ implementation</Description>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageProjectUrl>https://github.com/RevStackCore/EventBus.NetMQ</PackageProjectUrl>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/24423264?v=3&amp;s=200</PackageIconUrl>
+    <PackageTags>RevStackCore;EventBus;Event Bus;NetMQ</PackageTags>
+    <PackageLicenseUrl>https://github.com/RevStackCore/EventBus.NetMQ/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="NetMQ" Version="4.0.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RevStackCore.EventBus" Version="1.0.3" />
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
